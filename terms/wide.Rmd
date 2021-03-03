@@ -1,6 +1,6 @@
 ## wide
 
-<dfn>Data where all of the observations about one subject are in the same row</dfn>
+<dfn>Data where all of the observations about one subject (or item) are in the same row</dfn>
 
 ```{r wide-data, echo = FALSE, render = "asis"}
 x <- tibble::tibble(id = c("A", "B"),
